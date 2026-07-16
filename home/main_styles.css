@@ -209,7 +209,7 @@ article {
     border-radius: 15px;
     grid-column-start: 2;
     grid-row-start: 2;
-    background-color:#111116;
+    background-color:#0a0a0a;
     display: grid;
     grid-template-columns: 5% 1fr 5%;
     grid-template-rows: auto auto auto auto;
@@ -234,7 +234,7 @@ article {
 .sobre-nos p {
     grid-row-start: 3;
     grid-column-start: 2;
-    color: #ccc;
+    color: #888;
     font-size: 16px;
     line-height: 1.7;
 }
@@ -303,18 +303,14 @@ article {
 }
 
 .item p {
-    color: #ccc;
+    color: #888;
     font-size: 16px;
     text-align: center;
     max-width: 800px;
     line-height: 1.6;
 }
 
-.card-1 { background-color: #111116; }
-.card-2 { background-color: #111116; }
-.card-3 { background-color: #111116; }
-.card-4 { background-color: #111116; }
-.card-5 { background-color: #111116; }
+.card-1, .card-2, .card-3, .card-4, .card-5 { background-color: #0a0a0a; }
 
 .btn-nav {
     background: none;

@@ -1,15 +1,39 @@
-const track = document.querySelector('.expositor-track');
-const btnNext = document.getElementById('btn-next');
-const btnPrev = document.getElementById('btn-prev');
+const carrossel = document.querySelector('.expositor-carrossel');
+const btnProx = document.getElementById('btn-prox');
+const btnAnt = document.getElementById('btn-ant');
 
-btnNext.addEventListener('click', () => {
-    const itemWidth = track.clientWidth;
-    
-    track.scrollBy({ left: itemWidth, behavior: 'smooth' });
+let autoPlay = setInterval(passarSlide, 4000);
+
+function passarSlide() {
+    const larguraItem = carrossel.clientWidth; 
+    const fimDoScroll = carrossel.scrollWidth - carrossel.clientWidth;
+
+
+    if (carrossel.scrollLeft >= fimDoScroll - 5) {
+        carrossel.scrollLeft = 0;
+    } else {
+        carrossel.scrollLeft += larguraItem;
+    }
+}
+
+
+carrossel.addEventListener('mouseenter', () => {
+    clearInterval(autoPlay);
 });
 
-btnPrev.addEventListener('click', () => {
-    const itemWidth = track.clientWidth;
-    
-    track.scrollBy({ left: -itemWidth, behavior: 'smooth' });
+carrossel.addEventListener('mouseleave', () => {
+    autoPlay = setInterval(passarSlide, 4000);
 });
+
+btnProx.addEventListener('click', () => {
+    const larguraItem= carrossel.clientWidth;
+    
+    carrossel.scrollBy({ left: larguraItem, behavior: 'smooth' });
+});
+
+btnAnt.addEventListener('click', () => {
+    const larguraItem = carrossel.clientWidth;
+    
+    carrossel.scrollBy({ left: -larguraItem, behavior: 'smooth' });
+});
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,34 @@
     <link rel="stylesheet" href="main_styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <script src="main.js" defer></script>
 </head>
-<body>
-    <nav>
-        <div><img src="img/ganesh-logo-white.png" width="200px"></div>
-  
-        <div class="links">
-            <a href="main.html" class="animar-linha">Home</a>
-            <a href="#" class="animar-linha">Sobre nós</a>
-            <a href="#" class="animar-linha">Ping</a>
-            <a href="#" class="animar-linha">Conteudo</a>
-        </div>
 
-    </nav>
-    
-    <header>
+<body>
+   <div class="barra-topo">
+        <div class="logo-nav">
+            <img src="../img/ganesh-logo-white.png">
+        </div>
+        <nav>
+            <a href="../home/main.html" class="animar-linha">Home</a>
+            <a href="#" class="animar-linha">Sobre Nós</a>
+            <a href="../ping/ping.html" class="animar-linha">Ping</a>
+            <a href="#" class="animar-linha">Conteúdo</a>
+        </nav>
+    </div>
+
+    <header class="hero">
         <section>
             <div class="logo">
-                <img src="img/ganesh-logo-coloured.png">
+                <img src="../img/ganesh-logo-coloured.png">
                 <h1>GANESH</h1>
             </div>
         </section>
-        
+
         <div class="div-titulo">
             <h1>
-                <span class="destaque-verm">Grupo extracurricular</span> focado em <br>
+                <span class="destaque-verm">Grupo extracurricular</span> <br>focado em <br>
                 <span class="destaque-verde">Segurança da Informação</span>
             </h1>
             <p>
@@ -46,28 +48,71 @@
     <article>
         <div class="sobre-nos">
             <h2>Sobre o Ganesh:</h2>
-            <p>Ganesh é um grupo extracurricular sediado na USP São Carlos, dedicado ao avanço do conhecimento em Segurança da Informação entre estudantes de graduação e a comunidade em geral. Buscamos essa missão desenvolvendo materiais didáticos, cursos especializados e workshops, além de criar projetos educacionais para escolas públicas e privadas. Nossos membros produzem conteúdos educacionais valiosos, tanto de forma independente quanto colaborativa.
-                <br> <br>Nos conectamos com o público por meio de diversas iniciativas de divulgação, incluindo nosso canal no YouTube, um processo seletivo anual e a participação em competições de Capture the Flag (CTF). Nosso desempenho consistente e classificações elevadas nesses torneios nos posicionam entre os melhores times do Brasil e como a principal equipe universitária do país. Cada área de estudo realiza reuniões semanais focadas no desenvolvimento de minicursos, ferramentas e materiais de estudo, com a maioria desses recursos disponíveis publicamente no GitHub. Através desses esforços, contribuímos continuamente para a expansão da área de segurança da informação no Brasil.
+            <p>Ganesh é um grupo extracurricular sediado na USP São Carlos, dedicado ao avanço do conhecimento em
+                Segurança da Informação entre estudantes de graduação e a comunidade em geral. Buscamos essa missão
+                desenvolvendo materiais didáticos, cursos especializados e workshops, além de criar projetos
+                educacionais para escolas públicas e privadas. Nossos membros produzem conteúdos educacionais valiosos,
+                tanto de forma independente quanto colaborativa.
+                <br> <br>Nos conectamos com o público por meio de diversas iniciativas de divulgação, incluindo nosso
+                canal no YouTube, um processo seletivo anual e a participação em competições de Capture the Flag (CTF).
+                Nosso desempenho consistente e classificações elevadas nesses torneios nos posicionam entre os melhores
+                times do Brasil e como a principal equipe universitária do país. Cada área de estudo realiza reuniões
+                semanais focadas no desenvolvimento de minicursos, ferramentas e materiais de estudo, com a maioria
+                desses recursos disponíveis publicamente no GitHub. Através desses esforços, contribuímos continuamente
+                para a expansão da área de segurança da informação no Brasil.
             </p>
         </div>
-        <h2 class="titulo-areas">Áreas de estudo:</h2>
-        <div class="expositor-wrapper">
-            <button class="btn-nav" id="btn-prev">&#10094;</button>
+        <h1 class="titulo-areas">Áreas de estudo:</h1>
+        <div class="expositor">
+            <button class="btn-nav" id="btn-ant">&#10094;</button>
 
             <div class="expositor-container">
-                <div class="expositor-track">
-                <div class="item card-1"><h2>Criptografia</h2> <p>É a arte de proteger a informação. Aqui, o foco é entender como transformar dados legíveis em códigos indecifráveis e vice-versa. Estuda-se desde cifras históricas até algoritmos modernos (como RSA e AES), assinaturas digitais e protocolos de comunicação segura. O objetivo é garantir confidencialidade e integridade, além de quebrar implementações fracas ou incorretas em desafios de CTF.</p></div>
-                <div class="item card-2">Item 2</div>
-                <div class="item card-3">Item 3</div>
-                <div class="item card-4">Item 4</div>
+                <div class="expositor-carrossel">
+                    <div class="item card-1">
+                        <h2>Criptografia</h2>
+                        <p>É É a ciência de proteger a informação por meio de métodos de comunicação segura. O foco é tornar 
+                            dados legíveis em códigos ininteligíveis para terceiros não autorizados — lembrando que cifrar a 
+                            informação é bem diferente de apenas "esconder" uma mensagem. Estuda-se desde cifras históricas até 
+                            algoritmos modernos (como RSA e AES) e protocolos de comunicação, buscando garantir confidencialidade 
+                            e explorar falhas de implementação em desafios de CTF.</p>
+                    </div>
+                    <div class="item card-2">
+                        <h2>Redes</h2>
+                        <p>O pilar que conecta o mundo digital. Entendemos as redes como sistemas de partes interligadas que viabilizam 
+                            o tráfego de dados e a comunicação eficiente entre dispositivos. O foco aqui é o aprofundamento técnico em 
+                            protocolos, análise de pacotes e o funcionamento prático dos modelos OSI e TCP/IP, capacitando você a entender 
+                            exatamente como a informação viaja de um ponto a outro da internet de forma segura.</p>
+                    </div>
+                    <div class="item card-3">
+                        <h2>Segurança Web</h2>
+                        <p>Explora a espinha dorsal da internet moderna. Esta frente investiga a diferença entre a Internet e a Web, 
+                            mapeando a fundo sua arquitetura, o fluxo de informação e a comunicação cliente-servidor. O objetivo é 
+                            compreender o ecossistema das aplicações modernas, identificar vulnerabilidades clássicas e avançadas 
+                            (como injeções e falhas de lógica) e aprender a mitigar riscos que expõem dados na rede todos os dias.</p>
+                    </div>
+                    <div class="item card-4">
+                        <h2>Engenharia Reversa</h2>
+                        <p>A arte de desconstruir para compreender. O desafio aqui é pegar um software compilado (do qual não temos o 
+                            código-fonte) e entender o seu comportamento íntimo. Estudamos linguagens de baixo nível (como Assembly), 
+                            analisamos binários com ferramentas como Ghidra e IDA Pro e desvendamos a lógica de sistemas proprietários 
+                            ou malwares, sendo uma habilidade essencial tanto para análise de segurança quanto para resolver desafios de CTF.</p>
+                    </div>
+                    <div class="item card-5">
+                        <h2>Hardware Hacking</h2>
+                        <p>O ponto de encontro entre o software e o mundo físico. Esta frente explora a segurança de sistemas embarcados 
+                            e dispositivos físicos (IoT). Investigamos como interagir diretamente com circuitos eletrônicos, extrair firmwares,
+                             analisar barramentos de comunicação (como UART, I2C e SPI) e contornar proteções de hardware, provando na prática que 
+                             a segurança da informação vai muito além das telas dos computadores.</p>
+                    </div>
                 </div>
             </div>
 
-            <button class="btn-nav" id="btn-next">&#10095;</button>
+            <button class="btn-nav" id="btn-prox">&#10095;</button>
         </div>
     </article>
     <footer>
 
     </footer>
 </body>
+
 </html>

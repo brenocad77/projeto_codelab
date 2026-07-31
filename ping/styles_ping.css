@@ -1,3 +1,19 @@
+:root {
+    --preto: #0a0a0a;
+    --verde: #42DCA4;
+    --vermelho: #df2c62;
+    --branco: #F8FAFC;
+    --cinza: #94A3B8;
+    
+    --borda-verde: rgba(66, 220, 164, 0.2);
+    --borda-vermelha: rgba(223, 44, 98, 0.7);
+    
+    --font-main: 'Inter', sans-serif;
+}
+
+
+/*=============================body=============================*/
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +23,8 @@
 body {
 
   background: #050505;
-  font-family: Inter, sans-serif;
-  color: white;
+  font-family: var(--font-main);
+  color: var(--branco);
   overflow-x: hidden;
 
 }
@@ -39,6 +55,9 @@ body::after {
 
 }
 
+/*=============================header=============================*/
+
+
 header {
 
   width: 100%;
@@ -63,13 +82,14 @@ header {
 
 .logo{
 
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 800;
   letter-spacing: 2px;
 
-  color: #42DCA4;
+  color: var(--verde);
 
 }
+
 
 nav {
 
@@ -88,12 +108,12 @@ nav a {
 
 nav a:hover {
 
-  color: #42DCA4;
+  color: var(--verde);
 
 }
 
 .animar-linha {
-  color: #F8FAFC;
+  color: var(--branco);
   text-decoration: none;
   position: relative;
   padding-bottom: 4px;
@@ -105,7 +125,7 @@ nav a:hover {
   bottom: 0;
   left: 0;
   height: 2px;
-  background-color: #42DCA4;
+  background-color: var(--verde);
 
   width: 0%;
   transition: width 0.3s ease;
@@ -134,7 +154,7 @@ nav a:hover {
 
 h1 {
   text-align: center;
-  font-size: 150px;
+  font-size: 9.375rem;
   line-height: 1.05;
 
   font-weight: 800;
@@ -145,7 +165,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 100px;
+  font-size: 6.25rem;
   line-height: 1.05;
 
   font-weight: 700;
@@ -156,19 +176,22 @@ h2 {
 
 hr {
   border: 0;
-  border-top: 2px solid #df2c62;
+  border-top: 2px solid var(--vermelho);
 
 }
 
 .hero p {
 
   color: #999;
-  font-size: 19px;
+  font-size: 1.1875rem;
   line-height: 1.7;
   max-width: 700px;
   text-align: center;
 
 }
+
+/*=============================article=============================*/
+
 
 .section {
 
@@ -188,7 +211,7 @@ hr {
 
 .box {
   display: flex;
-  background: #0a0a0a;
+  background: var(--preto);
   gap: 15%;
   padding: 30px;
   border-radius: 15px;
@@ -198,15 +221,15 @@ hr {
 }
 
 .box:hover {
-  border-color: #df2c62;
+  border-color: var(--vermelho);
 
 }
 
 .box h3 {
   position: absolute;
   margin-bottom: 15px;
-  font-size: 40px;
-  color: #42DCA4;
+  font-size: 2.5rem;
+  color: var(--verde);
 
 }
 
@@ -214,7 +237,7 @@ hr {
   flex: 1;
   margin-top: 5%;
   color: #888;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.6;
   text-align: justify;
 }
@@ -254,7 +277,7 @@ hr {
   border: white;
   color: black;
   transition: 0.4s;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-main);
   text-decoration: none;
   font-weight: 700;
 
@@ -265,6 +288,9 @@ hr {
   transform: translateY(-3px);
 
 }
+
+/*=============================footer=============================*/
+
 
 footer {
 
@@ -282,7 +308,7 @@ footer {
 
   h1 {
 
-    font-size: 48px;
+    font-size: 3rem;
 
   }
 

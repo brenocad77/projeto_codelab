@@ -26,14 +26,32 @@ carrossel.addEventListener('mouseleave', () => {
 });
 
 btnProx.addEventListener('click', () => {
-    const larguraItem= carrossel.clientWidth;
-    
-    carrossel.scrollBy({ left: larguraItem, behavior: 'smooth' });
+    const larguraItem = carrossel.clientWidth;
+    const fimDoScroll = carrossel.scrollWidth - carrossel.clientWidth;
+
+    if (carrossel.scrollLeft >= fimDoScroll - 5) {
+        carrossel.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+        carrossel.scrollBy({ left: larguraItem, behavior: 'smooth' });
+    }
+
+    reiniciarAutoPlay();
 });
 
 btnAnt.addEventListener('click', () => {
     const larguraItem = carrossel.clientWidth;
-    
-    carrossel.scrollBy({ left: -larguraItem, behavior: 'smooth' });
+    const fimDoScroll = carrossel.scrollWidth - carrossel.clientWidth;
+
+    if (carrossel.scrollLeft <= 5) {
+        carrossel.scrollTo({ left: fimDoScroll, behavior: 'smooth' });
+    } else {
+        carrossel.scrollBy({ left: -larguraItem, behavior: 'smooth' });
+    }
+
+    reiniciarAutoPlay();
 });
 
+function reiniciarAutoPlay() {
+    clearInterval(autoPlay);
+    autoPlay = setInterval(passarSlide, 4000);
+}

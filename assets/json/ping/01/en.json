@@ -1,0 +1,14 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "About Us",
+  "nav_ping": "Ping",
+  "nav_atividades": "Activities",
+  "hero_sub": "Cryptography",
+  "hero_desc": "Cryptography is a technique used to protect information through data encoding, ensuring that only authorized people can access it. The term comes from Greek, where \"kryptós\" means \"hidden\" and \"graphién\" refers to \"writing\", resulting in the idea of \"hidden writing\".",
+  "aula02_titulo": "Lesson 02",
+  "aula02_desc": "In this lesson, introductory concepts of cryptography are presented, covering its main goals, applications, and importance in information security. Fundamental requirements to understand data protection mechanisms explored throughout the course are also discussed.",
+  "aula03_titulo": "Lesson 03",
+  "aula03_desc": "In this lesson, cryptography content is further explored with the presentation of new concepts, algorithms, and techniques used to ensure confidentiality, integrity, and authenticity of information. Practical examples and applications that reinforce previously studied fundamentals are examined.",
+  "btn_ant": "Previous",
+  "btn_prox": "Next"
+}

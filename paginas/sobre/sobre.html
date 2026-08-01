@@ -1,158 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganesh</title>
+    <title>Ganesh - Sobre Nós</title>
     <link rel="stylesheet" href="sobre.css">
-    <link rel="icon" type="image/png" href="../../assets/ganesh-logo-coloured.png">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link rel="icon" type="image/png" href="../../assets/img/ganesh-logo-coloured.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body data-page="sobre">
     <header>
         <div class="logo">
-            <div><img src="../../assets/ganesh-logo-white.png" width="200px"></div>
+            <div><img src="../../assets/img/ganesh-logo-white.png" width="200px"></div>
         </div>
         <nav>
-            <a href="../../main.html" class="animar-linha">Home</a>
-            <a href="sobre.html" class="animar-linha">Sobre Nós</a>
-            <a href="../ping/ping.html" class="animar-linha">Ping</a>
-            <a href="../atividades/atividades.html" class="animar-linha">Atividades</a>
+            <a href="../../main.html" class="animar-linha" data-i18n="nav_home">Home</a>
+            <a href="sobre.html" class="animar-linha" data-i18n="nav_sobre">Sobre Nós</a>
+            <a href="../ping/ping.html" class="animar-linha" data-i18n="nav_ping">Ping</a>
+            <a href="../atividades/atividades.html" class="animar-linha" data-i18n="nav_atividades">Atividades</a>
+            <button id="btn-lang" onclick="toggleLanguage()" class="btn-lang">PT</button>
         </nav>
     </header>
+    
     <article>
         <section class="section-objetivo">
-            <img src="../../assets/aboutus_ganesh.png">
+            <img src="../../assets/img/aboutus_ganesh.png">
             <div>
                 <p>ICMC-USP</p>
-                <h2>Objetivos do Ganesh</h2>
-                <p>
-                    Ganesh é um dos deuses mais venerados do hinduísmo, referido como o "Destruidor de Obstáculos" e o
-                    "Mestre do Intelecto" .
-                    Inspirados por essa divindade e pela crescente importância da Segurança da Informação no contexto da
-                    vida atual, alguns alunos
-                    do ICMC-USP decidiram criar um grupo extracurricular nessa área.
+                <h2 data-i18n="obj_titulo">Objetivos do Ganesh</h2>
+                <p data-i18n="obj_desc">
+                    Ganesh é um dos deuses mais venerados do hinduísmo, referido como o "Destruidor de Obstáculos" e o "Mestre do Intelecto".
+                    Inspirados por essa divindade e pela crescente importância da Segurança da Informação no contexto da vida atual, alguns alunos do ICMC-USP decidiram criar um grupo extracurricular nessa área.
                     <br><br>
-                    Através do estudo e desenvolvimento de técnicas e algoritmos voltados para a segurança de sistemas e
-                    redes de computadores,
-                    o grupo tem como objetivo proporcionar aos membros uma experiência de aprendizado e troca de
-                    conhecimento facilitada.
+                    Através do estudo e desenvolvimento de técnicas e algoritmos voltados para a segurança de sistemas e redes de computadores, o grupo tem como objetivo proporcionar aos membros uma experiência de aprendizado e troca de conhecimento facilitada.
                     <br><br>
-                    Além disso, o grupo também busca integrar e interagir com grupos externos à Universidade, bem como
-                    disseminar suas experiências
-                    e conhecimentos adquiridos junto à comunidade externa por meio de atividades, minicursos e palestras
-                    públicas.
+                    Além disso, o grupo também busca integrar e interagir com grupos externos à Universidade, bem como disseminar suas experiências e conhecimentos adquiridos junto à comunidade externa por meio de atividades, minicursos e palestras públicas.
                 </p>
             </div>
         </section>
+
         <section class="section-areas">
-            <h1>Áreas de Estudo & Pesquisa</h1>
+            <h1 data-i18n="areas_titulo">Áreas de Estudo & Pesquisa</h1>
             <section class="container-areas">
                 <div class="div-area">
-                    <h3>Criptografia</h3>
-                    <p>Algoritmos matemáticos para garantir o sigilo e a integridade dos dados.</p>
+                    <h3 data-i18n="area_cripto_title">Criptografia</h3>
+                    <p data-i18n="area_cripto_desc">Algoritmos matemáticos para garantir o sigilo e a integridade dos dados.</p>
                 </div>
                 <div class="div-area">
-                    <h3>Redes</h3>
-                    <p>Análise de tráfego e protocolos para identificar falhas e proteger conexões.</p>
+                    <h3 data-i18n="area_redes_title">Redes</h3>
+                    <p data-i18n="area_redes_desc">Análise de tráfego e protocolos para identificar falhas e proteger conexões.</p>
                 </div>
                 <div class="div-area">
-                    <h3>Segurança Web</h3>
-                    <p>Identificação e correção de vulnerabilidades em sites, APIs e servidores.</p>
+                    <h3 data-i18n="area_web_title">Segurança Web</h3>
+                    <p data-i18n="area_web_desc">Identificação e correção de vulnerabilidades em sites, APIs e servidores.</p>
                 </div>
                 <div class="div-area">
-                    <h3>Engenharia Reversa</h3>
-                    <p>Desmontagem de binários para entender o funcionamento interno de softwares.</p>
+                    <h3 data-i18n="area_eng_title">Engenharia Reversa</h3>
+                    <p data-i18n="area_eng_desc">Desmontagem de binários para entender o funcionamento interno de softwares.</p>
                 </div>
                 <div class="div-area">
-                    <h3>Hardware Hacking</h3>
-                    <p>Exploração de circuitos e firmwares para testar a segurança física de dispositivos.</p>
+                    <h3 data-i18n="area_hw_title">Hardware Hacking</h3>
+                    <p data-i18n="area_hw_desc">Exploração de circuitos e firmwares para testar a segurança física de dispositivos.</p>
                 </div>
             </section>
         </section>
+
         <div class="linha-verm"></div>
+
         <section class="section-ctf">
             <div class="texto-ctf">
-                <h1>Capture The Flag (CTF)</h1>
-                <p>
-                    Participamos ativamente de competições nacionais e internacionais
-                    onde colocamos em prática nossos conhecimentos em cenários reais e
-                    desafiadores.
+                <h1 data-i18n="ctf_titulo">Capture The Flag (CTF)</h1>
+                <p data-i18n="ctf_desc">
+                    Participamos ativamente de competições nacionais e internacionais onde colocamos em prática nossos conhecimentos em cenários reais e desafiadores.
                 </p>
             </div>
             <div class="colocacoes">
                 <div class="coloc">
                     <h2>#1</h2>
-                    <p>Equipe Universitária do Brasil</p>
+                    <p data-i18n="ctf_rank1">Equipe Universitária do Brasil</p>
                 </div>
                 <div class="coloc">
                     <h2>#2</h2>
-                    <p>Melhor Equipe Nacional</p>
+                    <p data-i18n="ctf_rank2">Melhor Equipe Nacional</p>
                 </div>
             </div>
         </section>
+
         <section class="section-ping">
             <div class="ping-texto">
-                <h2>Quero me tornar Membro!</h2>
-                <p>O único pré-requisito é participar do nosso <strong>Ping (Processo de Ingresso)</strong>, que ocorre
-                    no primeiro semestre.</p>
+                <h2 data-i18n="ping_titulo">Quero me tornar Membro!</h2>
+                <p data-i18n="ping_desc">O único pré-requisito é participar do nosso <strong>Ping (Processo de Ingresso)</strong>, que ocorre no primeiro semestre.</p>
             </div>
-            <a href="../ping/ping.html" class="btn-ping">Participar do Ping</a>
+            <a href="../ping/ping.html" class="btn-ping" data-i18n="btn_ping">Participar do Ping</a>
         </section>
+
         <div class="linha-verm"></div>
+
         <section class="section-org">
-            <h1>Origem e apoio</h1>
+            <h1 data-i18n="org_titulo">Origem e apoio</h1>
             <section class="container-org">
                 <div class="org">
                     <div>
-                        <h1>Nossa Universidade</h1>
-                        <p>
-                            A Universidade de São Paulo (USP), fundada em 1934, é a maior e mais prestigiada
-                            universidade pública do Brasil e referência na Ibero-América. Presente em mais de 100
-                            posições globais de reputação, a USP atua no ensino, pesquisa e extensão em todas as áreas
-                            do conhecimento. Conta com cerca de 90.000 alunos distribuídos em 11 campi pelo estado de
-                            São Paulo, incluindo a capital, São Carlos, Ribeirão Preto e Piracicaba.
+                        <h1 data-i18n="usp_titulo">Nossa Universidade</h1>
+                        <p data-i18n="usp_desc">
+                            A Universidade de São Paulo (USP), fundada em 1934, é a maior e mais prestigiada universidade pública do Brasil e referência na Ibero-América. Presente em mais de 100 posições globais de reputação, a USP atua no ensino, pesquisa e extensão em todas as áreas do conhecimento. Conta com cerca de 90.000 alunos distribuídos em 11 campi pelo estado de São Paulo, incluindo a capital, São Carlos, Ribeirão Preto e Piracicaba.
                         </p>
                     </div>
-                    <img src="../../assets/aboutus_usp.webp" class="logo-usp">
+                    <img src="../../assets/img/aboutus_usp.webp" class="logo-usp">
                 </div>
 
                 <div class="org">
                     <div>
-                        <h1>Nosso Instituto - ICMC</h1>
-                        <p>
-                            O Instituto de Ciências Matemáticas e de Computação (ICMC) da USP é referência nacional e
-                            internacional nas áreas de Computação, Matemática e Estatística. Localizado no campus de São
-                            Carlos, o instituto atua na formação de alunos de graduação e pós-graduação, na geração de
-                            conhecimento e na inovação tecnológica para o desenvolvimento científico e social do país.
+                        <h1 data-i18n="icmc_titulo">Nosso Instituto - ICMC</h1>
+                        <p data-i18n="icmc_desc">
+                            O Instituto de Ciências Matemáticas e de Computação (ICMC) da USP é referência nacional e internacional nas áreas de Computação, Matemática e Estatística. Localizado no campus de São Carlos, o instituto atua na formação de alunos de graduação e pós-graduação, na geração de conhecimento e na inovação tecnológica para o desenvolvimento científico e social do país.
                         </p>
                     </div>
-                    <img src="../../assets/aboutus_icmc_original.webp">
+                    <img src="../../assets/img/aboutus_icmc_original.webp">
                 </div>
             </section>
         </section>
     </article>
+
     <footer>
         <div class="footer-container">
             <div class="container-redes">
-                <a href="https://x.com/GaneshICMC"><img src="../../assets/twitter-logo.svg" alt="Twitter"></a>
-                <a href="https://www.instagram.com/ganeshicmc/"><img src="../../assets/instagram-sign.svg"
-                        alt="Instagram"></a>
-                <a href="https://www.facebook.com/ganeshICMC/"><img src="../../assets/facebook-sign.svg"
-                        alt="Facebook"></a>
-                <a href="https://github.com/ganesh-icmc"><img src="../../assets/github-logo.svg" alt="GitHub"></a>
-                <a href="https://www.youtube.com/c/ganeshicmc"><img src="../../assets/youtube-logo.svg"
-                        alt="YouTube"></a>
+                <a href="https://x.com/GaneshICMC"><img src="../../assets/img/twitter-logo.svg" alt="Twitter"></a>
+                <a href="https://www.instagram.com/ganeshicmc/"><img src="../../assets/img/instagram-sign.svg" alt="Instagram"></a>
+                <a href="https://www.facebook.com/ganeshICMC/"><img src="../../assets/img/facebook-sign.svg" alt="Facebook"></a>
+                <a href="https://github.com/ganesh-icmc"><img src="../../assets/img/github-logo.svg" alt="GitHub"></a>
+                <a href="https://www.youtube.com/c/ganeshicmc"><img src="../../assets/img/youtube-logo.svg" alt="YouTube"></a>
             </div>
 
             <span class="copyright">&copy; 2026 Ganesh</span>
-
         </div>
     </footer>
+
+    <script src="../../i18n.js"></script>
 </body>
 
 </html>

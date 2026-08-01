@@ -1,0 +1,11 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "About Us",
+  "nav_ping": "Ping",
+  "nav_atividades": "Activities",
+  "hero_sub": "OSINT",
+  "hero_desc": "OSINT (Open Source Intelligence) is the practice of collecting and analyzing publicly available information to generate actionable intelligence without violating privacy or accessing restricted data.",
+  "aula12_titulo": "Lesson 12",
+  "aula12_desc": "In this lesson, OSINT (Open Source Intelligence) concepts are presented, covering techniques for gathering, analyzing, and interpreting information from publicly accessible sources. The content explores structured methods used for digital investigation and data collection.",
+  "btn_ant": "Previous"
+}

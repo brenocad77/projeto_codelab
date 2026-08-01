@@ -1,0 +1,14 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "Sobre Nós",
+  "nav_ping": "Ping",
+  "nav_atividades": "Atividades",
+  "hero_sub": "Web",
+  "hero_desc": "A web é uma rede mundial de computadores que conecta indivíduos e organiza informações de forma interligada. Ela permite a navegação entre diferentes páginas, sites e recursos digitais através de hipertextos.",
+  "aula06_titulo": "Aula 06",
+  "aula06_desc": "Nesta aula, são apresentados os fundamentos do desenvolvimento web, abordando a estrutura básica de páginas, tecnologias essenciais e conceitos de funcionamento da Web. O conteúdo estabelece a base para a criação de aplicações e sites utilizando as principais ferramentas da área.",
+  "aula07_titulo": "Aula 07",
+  "aula07_desc": "Nesta aula, o conteúdo de desenvolvimento web é aprofundado com a exploração de recursos para criação de páginas mais dinâmicas e interativas. São apresentados conceitos e práticas que contribuem para o desenvolvimento de aplicações web modernas e funcionais.",
+  "btn_ant": "Anterior",
+  "btn_prox": "Próximo"
+}

@@ -1,0 +1,12 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "About Us",
+  "nav_ping": "Ping",
+  "nav_atividades": "Activities",
+  "hero_sub": "Hardware",
+  "hero_desc": "Hardware hacking involves modifying hardware devices and systems to explore their vulnerabilities or for unauthorized purposes.",
+  "aula11_titulo": "Lesson 11",
+  "aula11_desc": "In this lesson, fundamental hardware concepts and their relationship to computer system operations are covered. The content explores components, architecture, and technical aspects required to understand the interaction between software and physical devices.",
+  "btn_ant": "Previous",
+  "btn_prox": "Next"
+}

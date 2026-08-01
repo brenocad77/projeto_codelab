@@ -1,0 +1,14 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "About Us",
+  "nav_ping": "Ping",
+  "nav_atividades": "Activities",
+  "hero_sub": "Web",
+  "hero_desc": "The Web is a worldwide network of computers that connects people and organizes information in an interconnected way. It enables navigation between different web pages, sites, and digital resources using hypertexts.",
+  "aula06_titulo": "Lesson 06",
+  "aula06_desc": "In this lesson, the fundamentals of web development are presented, covering the basic structure of pages, essential technologies, and core concepts of how the Web operates. The content establishes the foundation for building applications and sites using industry-standard tools.",
+  "aula07_titulo": "Lesson 07",
+  "aula07_desc": "In this lesson, web development content is further explored with techniques for creating more dynamic and interactive pages. Concepts and practices essential for building modern, functional web applications are presented.",
+  "btn_ant": "Previous",
+  "btn_prox": "Next"
+}

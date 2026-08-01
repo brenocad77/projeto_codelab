@@ -111,6 +111,37 @@ nav a:hover {
   width: 100%;
 }
 
+.btn-lang {
+    background: rgba(66, 220, 164, 0.05);
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    line-height: 1;
+    margin: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-lang:hover {
+    background: var(--verde);
+    color: #0a0a0a;
+    box-shadow: 0 0 15px rgba(66, 220, 164, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-lang:active {
+    transform: translateY(0);
+    box-shadow: 0 0 5px rgba(66, 220, 164, 0.2);
+}
+
 /*=============================article=============================*/
 
 article {

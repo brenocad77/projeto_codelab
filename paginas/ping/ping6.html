@@ -5,65 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ganesh</title>
-    <link rel="icon" type="image/png" href="../../assets/ganesh-logo-coloured.png">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
-        rel="stylesheet">
+    <title>Ganesh - Ping (OSINT)</title>
+    <link rel="icon" type="image/png" href="../../assets/img/ganesh-logo-coloured.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <link href="styles_ping.css" rel="stylesheet">
-
 </head>
 
-<body>
+<body data-page="ping/06">
     <header>
         <div class="logo">
-            <div><img src="../../assets/ganesh-logo-white.png" width="200px"></div>
+            <div><img src="../../assets/img/ganesh-logo-white.png" width="200px"></div>
         </div>
         <nav>
-            <a href="../../main.html" class="animar-linha">Home</a>
-            <a href="../sobre/sobre.html" class="animar-linha">Sobre Nós</a>
-            <a href="ping.html" class="animar-linha">Ping</a>
-            <a href="../atividades/atividades.html" class="animar-linha">Atividades</a>
+            <a href="../../main.html" class="animar-linha" data-i18n="nav_home">Home</a>
+            <a href="../sobre/sobre.html" class="animar-linha" data-i18n="nav_sobre">Sobre Nós</a>
+            <a href="ping.html" class="animar-linha" data-i18n="nav_ping">Ping</a>
+            <a href="../atividades/atividades.html" class="animar-linha" data-i18n="nav_atividades">Atividades</a>
+            <button id="btn-lang" onclick="toggleLanguage()" class="btn-lang">PT</button>
         </nav>
     </header>
 
     <section class="hero">
-
         <div class="hero-content">
-
-            <h1>
-                PING
-            </h1>
-
+            <h1>PING</h1>
             <hr>
+            <h2 data-i18n="hero_sub">OSINT</h2>
 
-            <h2>
-                OSINT
-            </h2>
-
-            <p>
-                OSINT (Open Source Intelligence) é a prática de coletar e analisar informações publicamente disponíveis
-                para
-                gerar inteligência útil, sem invadir a privacidade ou acessar dados restritos.
+            <p data-i18n="hero_desc">
+                OSINT (Open Source Intelligence) é a prática de coletar e analisar informações publicamente disponíveis para gerar inteligência útil, sem invadir a privacidade ou acessar dados restritos.
             </p>
-
         </div>
-
     </section>
 
     <section class="section">
-
         <div class="grid">
-
             <div class="box">
+                <h3 data-i18n="aula12_titulo">Aula 12</h3>
 
-                <h3>Aula 12</h3>
-
-                <p>
-                    Nesta aula, são apresentados os conceitos de OSINT (Open Source Intelligence), abordando técnicas de
-                    coleta, análise e interpretação de informações disponíveis em fontes abertas.
-                    O conteúdo explora métodos utilizados para investigação digital e obtenção de dados de forma
-                    estruturada.
+                <p data-i18n="aula12_desc">
+                    Nesta aula, são apresentados os conceitos de OSINT (Open Source Intelligence), abordando técnicas de coleta, análise e interpretação de informações disponíveis em fontes abertas. O conteúdo explora métodos utilizados para investigação digital e obtenção de dados de forma estruturada.
                 </p>
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/oJmPPQKaYvo?si=Q-teH5inGBhsCtrH"
@@ -71,21 +51,18 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-
         </div>
-
     </section>
 
     <section class="end">
-        <a class="btn" href="ping5.html">Anterior</a>
+        <a class="btn" href="ping5.html" data-i18n="btn_ant">Anterior</a>
     </section>
 
     <footer>
-
-        © 2026 GANESH • ICMC
-
+        &copy; 2026 GANESH • ICMC
     </footer>
 
+    <script src="../../i18n.js"></script>
 </body>
 
 </html>

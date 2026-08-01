@@ -1,0 +1,16 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "About Us",
+  "nav_ping": "Ping",
+  "nav_atividades": "Activities",
+  "hero_sub": "Reverse Engineering & Pwning",
+  "hero_desc": "Reverse engineering is the analysis of software or a system to understand its operation without access to the source code, while pwning is the exploitation of vulnerabilities to compromise or gain control of a system, typically in authorized contexts such as security testing and CTF competitions.",
+  "aula08_titulo": "Lesson 08",
+  "aula08_desc": "In this lesson, fundamental reverse engineering concepts are introduced, covering program analysis, file structures, and techniques used to understand software operation. The content provides the foundations to investigate and interpret low-level systems.",
+  "aula09_titulo": "Lesson 09",
+  "aula09_desc": "In this lesson, reverse engineering techniques are further explored, examining code analysis methods, program behavior, and internal software structures. The content aims to develop the ability to understand and analyze applications at different execution levels.",
+  "aula10_titulo": "Lesson 10",
+  "aula10_desc": "In this lesson, system vulnerability exploitation fundamentals are presented, covering offensive security concepts, flaw analysis, and techniques used to understand application behavior. The content introduces essential practices for system exploitation and defense studies.",
+  "btn_ant": "Previous",
+  "btn_prox": "Next"
+}

@@ -186,6 +186,7 @@ article {
   text-align: center;
   color: var(--branco);
   width: 100%;
+  margin-bottom: 30px;
 }   
 
 .atividades h2 {
@@ -211,7 +212,7 @@ article {
   justify-content: space-between;
   gap: 15px;
   background: transparent;
-  border: 2px solid var(--vermelho);
+  border: 1px solid var(--vermelho);
   border-radius: 10px;
   margin: 0 auto;
   padding: 25px 30px;

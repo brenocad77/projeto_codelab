@@ -1,10 +1,12 @@
-window.getLanguage = function () {
-    const savedLang = localStorage.getItem('site_lang');
-    if (savedLang) return savedLang;
-
-    const userLang = navigator.language || navigator.userLanguage;
-    return userLang.startsWith('en') ? 'en' : 'pt';
+const I18N_CONFIG = {
+    defaultLang: 'pt',
+    supportedLangs: ['pt', 'en'],
+    basePath: 'assets/json'
 };
+
+function getCurrentLanguage() {
+    return localStorage.getItem('user_lang') || I18N_CONFIG.defaultLang;
+}
 
 async function loadTranslations(lang, page) {
     try {
@@ -14,7 +16,7 @@ async function loadTranslations(lang, page) {
         const response = await fetch(`${prefix}${I18N_CONFIG.basePath}/${page}/${lang}.json`);
         
         if (!response.ok) {
-            throw new Error(`Arquivo não encontrado: ${I18N_CONFIG.basePath}/${page}/${lang}.json`);
+            throw new Error(`Arquivo não encontrado: ${prefix}${I18N_CONFIG.basePath}/${page}/${lang}.json`);
         }
         
         return await response.json();
@@ -24,12 +26,36 @@ async function loadTranslations(lang, page) {
     }
 }
 
-window.toggleLanguage = function () {
-    const currentLang = localStorage.getItem('site_lang') || window.getLanguage();
+async function applyTranslations() {
+    const lang = getCurrentLanguage();
+    const page = document.body.getAttribute('data-page') || 'main';
+
+    const translations = await loadTranslations(lang, page);
+    if (!translations) return;
+
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        if (translations[key] !== undefined) {
+            element.innerHTML = translations[key];
+        }
+    });
+
+    const btnLang = document.getElementById('btn-lang');
+    if (btnLang) {
+        btnLang.textContent = lang.toUpperCase();
+    }
+}
+
+async function toggleLanguage() {
+    const currentLang = getCurrentLanguage();
     const newLang = currentLang === 'pt' ? 'en' : 'pt';
-    window.loadTranslations(newLang);
-};
+    
+    localStorage.setItem('user_lang', newLang);
+    await applyTranslations();
+}
+
+window.toggleLanguage = toggleLanguage;
 
 document.addEventListener('DOMContentLoaded', () => {
-    window.loadTranslations(window.getLanguage());
+    applyTranslations();
 });

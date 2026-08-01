@@ -8,7 +8,7 @@
   "areas_titulo": "Study & Research Areas",
   "area_cripto_title": "Cryptography",
   "area_cripto_desc": "Mathematical algorithms to ensure data secrecy and integrity.",
-  "area_redes_title": "Networks",
+  "area_redes_title": "Computer Networks",
   "area_redes_desc": "Traffic and protocol analysis to identify vulnerabilities and secure connections.",
   "area_web_title": "Web Security",
   "area_web_desc": "Identification and remediation of vulnerabilities in websites, APIs, and servers.",

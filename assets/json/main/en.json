@@ -13,7 +13,7 @@
   "areas_titulo": "Fields of Study:",
   "card1_titulo": "Cryptography",
   "card1_desc": "The science of protecting information using secure communication methods. The focus is on turning readable data into unintelligible codes for unauthorized third parties — bearing in mind that encrypting information is quite different from simply \"hiding\" a message. We study everything from historical ciphers to modern algorithms (such as RSA and AES) and communication protocols, aiming to ensure confidentiality and exploit implementation flaws in CTF challenges.",
-  "card2_titulo": "Networking",
+  "card2_titulo": "Computer Networks",
   "card2_desc": "The pillar connecting the digital world. We view networks as systems of interconnected parts enabling data traffic and efficient communication between devices. The focus here is on technical deep dives into protocols, packet analysis, and the practical functioning of OSI and TCP/IP models, enabling you to understand exactly how information travels securely across the internet.",
   "card3_titulo": "Web Security",
   "card3_desc": "Explores the backbone of the modern internet. This area investigates the distinction between the Internet and the Web, thoroughly mapping its architecture, data flow, and client-server communication. The goal is to understand the ecosystem of modern applications, identify classic and advanced vulnerabilities (such as injections and logic flaws), and learn to mitigate risks exposing data daily.",

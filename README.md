@@ -1,4 +1,4 @@
-# CodeLab - Website Oficial
+# Ganesh - Website Oficial
 
 Este repositório contém o código-fonte do website do **Ganesh**, um grupo extracurricular vinculado ao **ICMC - USP** (Instituto de Ciências Matemáticas e de Computação da Universidade de São Paulo) para o processo seletivo do grupo **CodeLab**.
 

@@ -73,8 +73,11 @@ Caso utilize o **VS Code**, é recomendável utilizar a extensão **Live Server*
 1. Abra a pasta do projeto no VS Code.
 2. Clique com o botão direito sobre `main.html` e selecione **"Open with Live Server"**.
 
----
-
+### Opção 3: Link de acesso direto pelo git
+1. Abra o link no seu navegador:
+   ```bash
+    https://brenocad77.github.io/projeto_codelab/main.html   
+   ```
 ## Colaboradores
 
 - Breno Cad

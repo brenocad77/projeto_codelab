@@ -1,0 +1,12 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "Sobre Nós",
+  "nav_ping": "Ping",
+  "nav_atividades": "Atividades",
+  "hero_sub": "Hardware",
+  "hero_desc": "O hardware hacking é uma prática que envolve a modificação de dispositivos e sistemas de hardware para explorar suas vulnerabilidades ou para fins não autorizados.",
+  "aula11_titulo": "Aula 11",
+  "aula11_desc": "Nesta aula, são abordados os conceitos fundamentais de hardware e sua relação com o funcionamento dos sistemas computacionais. O conteúdo explora componentes, arquitetura e aspectos técnicos necessários para compreender a interação entre software e dispositivos físicos.",
+  "btn_ant": "Anterior",
+  "btn_prox": "Próximo"
+}

@@ -1,0 +1,14 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "About Us",
+  "nav_ping": "Ping",
+  "nav_atividades": "Activities",
+  "hero_sub": "Computer Networks",
+  "hero_desc": "Computer networks consist of the interconnection of two or more devices, such as computers, servers, and mobile devices, through cables, fiber optics, or wireless connections like Wi-Fi, allowing the sharing of information, services, and resources.",
+  "aula04_titulo": "Lesson 04",
+  "aula04_desc": "In this lesson, fundamental concepts of computer networks are introduced, including communication models, protocols, and information exchange between devices. The goal is to understand the principles that enable network interconnection and operation.",
+  "aula05_titulo": "Lesson 05",
+  "aula05_desc": "In this lesson, computer network concepts are further explored, focusing on the operation of key protocols, services, and communication mechanisms between devices. Practical examples are also presented to consolidate the understanding of network architecture and operations.",
+  "btn_ant": "Previous",
+  "btn_prox": "Next"
+}

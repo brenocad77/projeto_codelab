@@ -1,0 +1,14 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "Sobre Nós",
+  "nav_ping": "Ping",
+  "nav_atividades": "Atividades",
+  "hero_sub": "Redes",
+  "hero_desc": "Redes de computadores consistem na interligação de dois ou mais dispositivos, como computadores, servidores e dispositivos móveis, por meio de cabos, fibra ótica ou conexões sem fio, como Wi-Fi, permitindo o compartilhamento de informações, serviços e recursos.",
+  "aula04_titulo": "Aula 04",
+  "aula04_desc": "Nesta aula, são introduzidos os conceitos fundamentais de redes de computadores, incluindo modelos de comunicação, protocolos e a troca de informações entre dispositivos. O objetivo é compreender os princípios que permitem a interconexão e o funcionamento das redes.",
+  "aula05_titulo": "Aula 05",
+  "aula05_desc": "Nesta aula, são aprofundados os conceitos de redes de computadores, com foco no funcionamento dos principais protocolos, serviços e mecanismos de comunicação entre dispositivos. Também são apresentados exemplos práticos para consolidar o entendimento da arquitetura e da operação das redes.",
+  "btn_ant": "Anterior",
+  "btn_prox": "Próximo"
+}

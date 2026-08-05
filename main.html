@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh</title>
+    <link rel="stylesheet" href="paginas/home/main_styles.css">
+    <link rel="icon" type="image/png" href="assets/img/ganesh-logo-coloured.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="paginas/home/main.js" defer></script>
+</head>
+
+<body data-page="main">
+    <div class="barra-topo">
+        <div class="logo-nav">
+            <img src="assets/img/ganesh-logo-white.png">
+        </div>
+        <nav>
+            <a href="main.html" class="animar-linha" data-i18n="nav_home">Home</a>
+            <a href="paginas/sobre/sobre.html" class="animar-linha" data-i18n="nav_sobre">Sobre Nós</a>
+            <a href="paginas/ping/ping.html" class="animar-linha" data-i18n="nav_ping">Ping</a>
+            <a href="paginas/atividades/atividades.html" class="animar-linha" data-i18n="nav_atividades">Atividades</a>
+            <button id="btn-lang" onclick="toggleLanguage()" class="btn-lang">EN</button>
+        </nav>
+    </div>
+
+    <header class="hero">
+        <section>
+            <div class="logo">
+                <img src="assets/img/ganesh-logo-coloured.png">
+                <h1>GANESH</h1>
+            </div>
+        </section>
+
+        <div class="div-titulo">
+            <h1>
+                <span class="destaque-verm" data-i18n="hero_sub1">Grupo extracurricular</span> <br><span data-i18n="hero_sub2">focado em</span> <br>
+                <span class="destaque-verde" data-i18n="hero_sub3">Segurança da Informação</span>
+            </h1>
+            <p data-i18n="hero_desc">
+                Dedicado ao avanço do conhecimento em segurança cibernética.
+                Aprenda Criptografia, Engenharia Reversa, Redes, Hardware Hacking e Segurança Web.
+            </p>
+        </div>
+    </header>
+    <div class="linha"></div>
+    <article>
+        <div class="sobre-nos">
+            <h2 data-i18n="sobre_titulo">Sobre o Ganesh:</h2>
+            <p data-i18n="sobre_desc">Ganesh é um grupo extracurricular sediado na USP São Carlos, dedicado ao avanço do conhecimento em
+                Segurança da Informação entre estudantes de graduação e a comunidade em geral. Buscamos essa missão
+                desenvolvendo materiais didáticos, cursos especializados e workshops, além de criar projetos
+                educacionais para escolas públicas e privadas. Nossos membros produzem conteúdos educacionais valiosos,
+                tanto de forma independente quanto colaborativa.
+                <br> <br>Nos conectamos com o público por meio de diversas iniciativas de divulgação, incluindo nosso
+                canal no YouTube, um processo seletivo anual e a participação em competições de Capture the Flag (CTF).
+                Nosso desempenho consistente e classificações elevadas nesses torneios nos posicionam entre os melhores
+                times do Brasil e como a principal equipe universitária do país. Cada área de estudo realiza reuniões
+                semanais focadas no desenvolvimento de minicursos, ferramentas e materiais de estudo, com a maioria
+                desses recursos disponíveis publicamente no GitHub. Através desses esforços, contribuímos continuamente
+                para a expansão da área de segurança da informação no Brasil.
+            </p>
+            <a class="btn-sobre" href="paginas/sobre/sobre.html" data-i18n="btn_sobre">Saiba Mais</a>
+        </div>
+        <h1 class="titulo-areas" data-i18n="areas_titulo">Áreas de estudo:</h1>
+        <div class="expositor">
+            <button class="btn-nav" id="btn-ant">&#10094;</button>
+
+            <div class="expositor-container">
+                <div class="expositor-carrossel">
+                    <div class="item card-1">
+                        <h2 data-i18n="card1_titulo">Criptografia</h2>
+                        <p data-i18n="card1_desc">É a ciência de proteger a informação por meio de métodos de comunicação segura. O foco é
+                            tornar dados legíveis em códigos ininteligíveis para terceiros não autorizados — lembrando que
+                            cifrar a informação é bem diferente de apenas "esconder" uma mensagem. Estuda-se desde cifras
+                            históricas até algoritmos modernos (como RSA e AES) e protocolos de comunicação, buscando garantir
+                            confidencialidade e explorar falhas de implementação em desafios de CTF.</p>
+                    </div>
+                    <div class="item card-2">
+                        <h2 data-i18n="card2_titulo">Redes</h2>
+                        <p data-i18n="card2_desc">O pilar que conecta o mundo digital. Entendemos as redes como sistemas de partes interligadas
+                            que viabilizam o tráfego de dados e a comunicação eficiente entre dispositivos. O foco aqui é o
+                            aprofundamento técnico em protocolos, análise de pacotes e o funcionamento prático dos modelos OSI e TCP/IP,
+                            capacitando você a entender exactamente como a informação viaja de um ponto a outro da internet de forma segura.</p>
+                    </div>
+                    <div class="item card-3">
+                        <h2 data-i18n="card3_titulo">Segurança Web</h2>
+                        <p data-i18n="card3_desc">Explora a espinha dorsal da internet moderna. Esta frente investiga a diferença entre a
+                            Internet e a Web, mapeando a fundo sua arquitetura, o fluxo de informação e a comunicação cliente-servidor. O
+                            objetivo é compreender o ecossistema das aplicações modernas, identificar vulnerabilidades clássicas e
+                            avançadas (como injeções e falhas de lógica) e aprender a mitigar riscos que expõem dados na rede
+                            todos os dias.</p>
+                    </div>
+                    <div class="item card-4">
+                        <h2 data-i18n="card4_titulo">Engenharia Reversa</h2>
+                        <p data-i18n="card4_desc">A arte de desconstruir para compreender. O desafio aqui é pegar um software compilado (do
+                            qual não temos o código-fonte) e entender o seu comportamento íntimo. Estudamos linguagens de baixo nível
+                            (como Assembly), analisamos binários com ferramentas como Ghidra e IDA Pro e desvendamos a lógica de sistemas
+                            proprietários ou malwares, sendo uma habilidade essencial tanto para análise de segurança quanto para
+                            resolver desafios de CTF.</p>
+                    </div>
+                    <div class="item card-5">
+                        <h2 data-i18n="card5_titulo">Hardware Hacking</h2>
+                        <p data-i18n="card5_desc">O ponto de encontro entre o software e o mundo físico. Esta frente explora a segurança de
+                            sistemas embarcados e dispositivos físicos (IoT). Investigamos como interagir diretamente com circuitos
+                            eletrônicos, extrair firmwares, analisar barramentos de comunicação (como UART, I2C e SPI) e contornar proteções de
+                            hardware, provando na prática que a segurança da informação vai muito além das telas dos computadores.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-nav" id="btn-prox">&#10095;</button>
+        </div>
+    </article>
+    <footer>
+        <div class="footer-container">
+            <nav class="footer-nav">
+                <a href="main.html" class="animar-linha" data-i18n="nav_home">Home</a>
+                <a href="paginas/atividades/atividades.html" class="animar-linha" data-i18n="nav_atividades">Atividades</a>
+                <a href="paginas/ping/ping.html" class="animar-linha" data-i18n="nav_ping">Ping</a>
+                <a href="paginas/sobre/sobre.html" class="animar-linha" data-i18n="nav_sobre">Sobre Nós</a>
+            </nav>
+
+            <div class="footer-social">
+                <h2 data-i18n="footer_social">Fique atualizado<br>sobre o ganesh!</h2>
+                <div class="linha-verde"></div>
+                <div class="social-logo">
+                    <a href="https://x.com/GaneshICMC"><img src="assets/img/twitter-logo.svg" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/ganeshicmc/"><img src="assets/img/instagram-sign.svg"
+                            alt="Instagram"></a>
+                    <a href="https://www.facebook.com/ganeshICMC/"><img src="assets/img/facebook-sign.svg"
+                            alt="Facebook"></a>
+                    <a href="https://github.com/ganesh-icmc"><img src="assets/img/github-logo.svg" alt="GitHub"></a>
+                    <a href="https://www.youtube.com/c/ganeshicmc"><img src="assets/img/youtube-logo.svg" alt="YouTube"></a>
+                </div>
+            </div>
+
+            <div class="footer-foto">
+                <img src="assets/img/ganesh-logo-coloured.png" class="footer-logo">
+                <span class="copyright">&copy; 2026 Ganesh</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "Sobre Nós",
+  "nav_ping": "Ping",
+  "nav_atividades": "Atividades",
+  "hero_sub": "Eng Reversa e Pwning",
+  "hero_desc": "Engenharia reversa é a análise de um software ou sistema para compreender seu funcionamento sem acesso ao código-fonte, enquanto pwning é a exploração de vulnerabilidades para comprometer ou assumir o controle de um sistema, geralmente em contextos autorizados, como testes de segurança e competições CTF.",
+  "aula08_titulo": "Aula 08",
+  "aula08_desc": "Nesta aula, são introduzidos os conceitos fundamentais de engenharia reversa, abordando a análise de programas, estruturas de arquivos e técnicas utilizadas para compreender o funcionamento de softwares. O conteúdo apresenta as bases para investigar e interpretar sistemas em baixo nível.",
+  "aula09_titulo": "Aula 09",
+  "aula09_desc": "Nesta aula, são aprofundadas as técnicas de engenharia reversa, explorando métodos de análise de código, comportamento de programas e identificação de estruturas internas de softwares. O conteúdo busca desenvolver a capacidade de compreender e analisar aplicações em diferentes níveis de execução.",
+  "aula10_titulo": "Aula 10",
+  "aula10_desc": "Nesta aula, são apresentados os fundamentos de exploração de vulnerabilidades em sistemas, abordando conceitos de segurança ofensiva, análise de falhas e técnicas utilizadas para compreender o comportamento de aplicações. O conteúdo introduz práticas essenciais para o estudo de exploração e defesa de sistemas.",
+  "btn_ant": "Anterior",
+  "btn_prox": "Próximo"
+}

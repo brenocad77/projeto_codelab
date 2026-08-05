@@ -1,0 +1,10 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "About Us",
+  "nav_ping": "Ping",
+  "nav_atividades": "Activities",
+  "hero_desc": "Linux, also called GNU/Linux, is a family of operating systems that use the Linux kernel, developed by Finnish programmer Linus Torvalds, inspired by the Minix operating system.",
+  "aula_titulo": "Lesson 01",
+  "aula_desc": "In this first lesson of the PING 2026 Linux course, promoted by Ganesh ICMC, the fundamental concepts of the Linux operating system, its importance in software development, and information security are presented. The class covers the basic system structure, terminal usage, and essential first commands for navigation and interaction with the Linux environment, providing a solid foundation for the upcoming course modules.",
+  "btn_prox": "Next"
+}

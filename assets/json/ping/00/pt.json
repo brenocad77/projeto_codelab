@@ -1,0 +1,10 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "Sobre Nós",
+  "nav_ping": "Ping",
+  "nav_atividades": "Atividades",
+  "hero_desc": "Linux, também chamado de GNU/Linux, é uma família de sistemas operacionais que utilizam o núcleo Linux, desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema operacional Minix.",
+  "aula_titulo": "Aula 01",
+  "aula_desc": "Nesta primeira aula do curso de Linux do PING 2026, promovido pelo Ganesh ICMC, são apresentados os conceitos fundamentais do sistema operacional Linux, sua importância no desenvolvimento de software e na área de segurança da informação. A aula aborda a estrutura básica do sistema, o uso do terminal e os primeiros comandos essenciais para a navegação e interação com o ambiente Linux, oferecendo uma base sólida para os próximos módulos do curso.",
+  "btn_prox": "Próximo"
+}

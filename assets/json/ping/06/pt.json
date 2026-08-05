@@ -1,0 +1,11 @@
+{
+  "nav_home": "Home",
+  "nav_sobre": "Sobre Nós",
+  "nav_ping": "Ping",
+  "nav_atividades": "Atividades",
+  "hero_sub": "OSINT",
+  "hero_desc": "OSINT (Open Source Intelligence) é a prática de coletar e analisar informações publicamente disponíveis para gerar inteligência útil, sem invadir a privacidade ou acessar dados restritos.",
+  "aula12_titulo": "Aula 12",
+  "aula12_desc": "Nesta aula, são apresentados os conceitos de OSINT (Open Source Intelligence), abordando técnicas de coleta, análise e interpretação de informações disponíveis em fontes abertas. O conteúdo explora métodos utilizados para investigação digital e obtenção de dados de forma estruturada.",
+  "btn_ant": "Anterior"
+}
